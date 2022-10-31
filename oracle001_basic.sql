@@ -297,6 +297,7 @@ FROM
     employees
 WHERE
     first_name LIKE '%der%';
+-- '%'는 모든 문자를 지정
     
 -- employees테이블에서 first_name의 값 중 'A'로 시작하고
 -- 두번째 문자는 임의 문자이면 'exander'로 끝나는
@@ -309,6 +310,7 @@ FROM
     employees
 WHERE
     first_name LIKE 'A_exander';
+-- '_'는 한 글자만 임의의 문자로 지정
 
 /*
 WHERE절에서 사용된 연산자 3가지 종류
